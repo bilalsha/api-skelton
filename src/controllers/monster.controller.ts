@@ -1,9 +1,7 @@
 import { Request, Response } from 'express';
 import { StatusCodes } from 'http-status-codes';
-import { DBError, Id, NotNullViolationError } from 'objection';
+import { Id } from 'objection';
 import { Monster } from '../models';
-import csv from 'csvtojson';
-import { readFileSync } from 'fs';
 
 const list = async (req: Request, res: Response): Promise<Response> => {
   const monsters = await Monster.query();

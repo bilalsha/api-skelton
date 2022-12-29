@@ -33,7 +33,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "csvtojson": "^2.0.10",
     "dotenv": "^16.0.2",
     "express": "^4.18.1",
     "http-status-codes": "^2.2.0",
@@ -44,7 +43,6 @@
   },
   "devDependencies": {
     "@faker-js/faker": "^7.5.0",
-    "@types/csvtojson": "^2.0.0",
     "@types/express": "^4.17.13",
     "@types/faker": "^6.6.9",
     "@types/jest": "^29.0.0",

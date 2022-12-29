@@ -29,7 +29,7 @@
     "db:seed": "npm run knex -- seed:run",
     "db:setup": "npm run db:migrate && npm run db:seed"
   },
-  "keywords": [],
+  "keywords": ["nodejs", "express", "express-js", "jest", "typescript", "eslint", "prettier"],
   "author": "",
   "license": "ISC",
   "dependencies": {

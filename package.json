@@ -30,8 +30,8 @@
     "db:setup": "npm run db:migrate && npm run db:seed"
   },
   "keywords": ["nodejs", "express", "express-js", "jest", "typescript", "eslint", "prettier"],
-  "author": "",
-  "license": "ISC",
+  "author": "Bila Shah",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^16.0.2",
     "express": "^4.18.1",
